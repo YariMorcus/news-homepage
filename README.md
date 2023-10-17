@@ -1,11 +1,14 @@
-# Frontend Mentor - [Challenge name]
+# Frontend Mentor - News homepage
 
-This is a solution to the [[challenge name] challenge on Frontend Mentor](insert-challenge-link). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [news homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### Difficulty: `[challenge difficulty]`
+### Difficulty: `junior`
 
 [//]: # 'Insert screenshot below'
-[//]: # 'In case of netlify: insert deployment status below including **Deployment status** label'
+
+**Deployment status**
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c1dfc1f0-1132-4577-aa75-15de0d1ce478/deploy-status)](https://app.netlify.com/sites/news-homepage-yari-morcus/deploys?branch=main)
 
 ## Table of contents
 
@@ -21,16 +24,16 @@ This is a solution to the [[challenge name] challenge on Frontend Mentor](insert
 
 ### The challenge
 
-To build the [challenge name] according to the given designs as close as possible.
+To build the news homepage according to the given designs as close as possible.
 The users should be able to:
 
-[//]: # 'Insert requirements below'
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
 ### Links
 
-- Solution URL: [Open GitHub repository](fill-in-github-repository-link)
-
-[//]: # 'Insert following when online: - Live Site URL: [open Netlify / GitHub page][fill in link]'
+- Solution URL: [open GitHub repository](https://github.com/YariMorcus/news-homepage)
+- Live Site URL: [open Netlify page](https://news-homepage-yari-morcus.netlify.app)
 
 ## Project information
 
