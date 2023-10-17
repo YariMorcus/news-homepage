@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "News homepage",
   "version": "1.0.0",
   "description": "Frontend Mentor challenge made by Yari Morcus",
   "default": "index.html",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "github-repo-link"
+    "url": "https://github.com/YariMorcus/news-homepage"
   },
   "author": "Yari Morcus",
   "license": "ISC",
   "bugs": {
-    "url": "github-repo-link-issues"
+    "url": "https://github.com/YariMorcus/news-homepage/issues"
   },
-  "homepage": "github-repo-link#readme",
+  "homepage": "https://github.com/YariMorcus/news-homepage#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
     "cssnano": "^6.0.1",
