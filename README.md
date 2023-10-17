@@ -17,7 +17,6 @@ This is a solution to the [news homepage challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [Project information](#project-information)
   - [User stories and features](#user-stories-and-features)
-  - [Flowchart](#flowchart)
 - [Author](#author)
 
 ## Overview
