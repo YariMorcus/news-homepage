@@ -15,8 +15,6 @@ This is a solution to the [news homepage challenge on Frontend Mentor](https://w
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
-- [Project information](#project-information)
-  - [User stories and features](#user-stories-and-features)
 - [Author](#author)
 
 ## Overview
@@ -33,15 +31,6 @@ The users should be able to:
 
 - Solution URL: [open GitHub repository](https://github.com/YariMorcus/news-homepage)
 - Live Site URL: [open Netlify page](https://news-homepage-yari-morcus.netlify.app)
-
-## Project information
-
-### User stories and features
-
-[//]: # '1. As a user I want to generate a new piece of advice so I might be able to learn something from it'
-[//]: # '**Feature**: A button that generates a new piece of advice based on an API call'
-[//]: # 'Optional: ### Flowchart'
-[//]: # 'Optional: insert flowchart link below'
 
 ## Author
 
