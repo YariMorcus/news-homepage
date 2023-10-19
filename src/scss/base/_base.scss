@@ -4,6 +4,9 @@
 // Import mixins
 @use '../abstracts/mixins' as m;
 
+// Import typography
+@use './typography' as t;
+
 /* Set core root defaults */
 html {
   font-size: 10px;
@@ -15,18 +18,20 @@ html {
 
 /* Set core body defaults */
 body {
+  margin: 3rem 2rem 0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   text-rendering: optimizeSpeed;
   font-family: 'Manrope', sans-serif;
   line-height: 1.5;
+  font-size: t.$font-size-paragraph;
 }
 
 main {
-  display: flex;
-  align-items: center;
-  flex: 1;
+  // display: flex;
+  // align-items: center;
+  // flex: 1;
 }
 
 /* A elements that don't have a class get default styles */

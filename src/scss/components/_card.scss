@@ -1,0 +1,17 @@
+.news-card {
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+
+  &__number {
+    font-size: 3rem;
+  }
+
+  &__headline {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  &__content {
+    padding-left: 2rem;
+  }
+}
