@@ -1,12 +1,21 @@
 .news-lead {
-  //   margin-bottom: 5rem;
+  &__picture {
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+
   &__title {
     font-size: 3.5rem;
     font-weight: 800;
   }
 
-  &__picture {
-    margin-bottom: 1rem;
+  &__introduction {
+    margin-bottom: 2rem;
+  }
+
+  &__read-more {
     display: inline-block;
+    border: 1px solid;
+    padding: 1rem 5rem;
   }
 }
