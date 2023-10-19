@@ -1,0 +1,20 @@
+// Forward header file when _index.scss is @used
+@forward 'header';
+
+// Forward logo file when _index.scss is @used
+@forward 'logo';
+
+// Forward navigation file when _index.scss is @used
+@forward 'navigation';
+
+// Forward lead file when _index.scss is @used
+@forward 'lead';
+
+// Forward sidebar file when _index.scss is @used
+@forward 'sidebar';
+
+// Forward card-container file when _index.scss is @used
+@forward 'card-container';
+
+// Forward card file when _index.scss is @used
+@forward 'card';
