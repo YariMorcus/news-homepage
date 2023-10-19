@@ -1,4 +1,8 @@
 .news-sidebar {
-  //   margin-bottom: 5rem;
+  padding: 2.3rem;
   border: 1px solid;
+
+  &__title {
+    margin-bottom: 2rem;
+  }
 }
