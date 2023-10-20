@@ -28,11 +28,11 @@ body {
   font-size: t.$font-size-paragraph;
 }
 
-main {
-  // display: flex;
-  // align-items: center;
-  // flex: 1;
-}
+// main {
+//   display: flex;
+//   align-items: center;
+//   flex: 1;
+// }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -54,6 +54,21 @@ img {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(v.$very-dark-blue, 0.5);
+
+  &--is-active {
+    display: block;
   }
 }
 
