@@ -7,6 +7,18 @@
   &__hamburger-button {
     display: none;
   }
+
+  &__item:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 1rem 0;
+    width: 100%;
+    color: v.$very-dark-blue;
+    text-decoration: none;
+  }
 }
 
 // a11y
@@ -27,18 +39,6 @@
       background-color: v.$white;
       list-style-type: none;
     }
-  }
-
-  &__item:not(:last-child) {
-    margin-bottom: 0.5rem;
-  }
-
-  &__link {
-    display: inline-block;
-    padding: 1rem 0;
-    width: 100%;
-    color: v.$very-dark-blue;
-    text-decoration: none;
   }
 
   &__hamburger-button {
