@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="scss/main.scss">
 
     <title>News homepage | Frontend Mentor challenge</title>
-    <script type="module" src="js/controller.js"></script>
+    <script type="module" src="js/index.js"></script>
 
     <meta property="og:title" content="News homepage">
     <meta property="og:site_name" content="Yari Morcus">
@@ -34,16 +34,18 @@
 </head>
 <body>
 
-    <header class="news-header">
+    <header class="news-header mb-3">
         <a class="news-logo" href="#"><img class="news-logo__img" src="img/logo.svg" alt="Go to homepage"></a>
-        <nav class="news-nav">
-            <ol class="news-nav__ol">
-                <li class="news-nav__item"><a href="#" class="news-nav__link">Home</a></li>
-                <li class="news-nav__item"><a href="#" class="news-nav__link">New</a></li>
-                <li class="news-nav__item"><a href="#" class="news-nav__link">Popular</a></li>
-                <li class="news-nav__item"><a href="#" class="news-nav__link">Trending</a></li>
+        <nav class="news-nav" role="navigation">
+            <button id="toggle" class="news-nav__hamburger-button" aria-expanded="false" aria-controls="menu"><span class="news-nav__hamburger-button-text">Menu</span>
+            </button> <!-- .news-nav__hamburger-button -->
+            <ul id="menu" class="news-nav__ul">
+                <li class="news-nav__item mb-3"><a href="#" class="news-nav__link">Home</a></li>
+                <li class="news-nav__item mb-3"><a href="#" class="news-nav__link">New</a></li>
+                <li class="news-nav__item mb-3"><a href="#" class="news-nav__link">Popular</a></li>
+                <li class="news-nav__item mb-3"><a href="#" class="news-nav__link">Trending</a></li>
                 <li class="news-nav__item"><a href="#" class="news-nav__link">Categories</a></li>
-            </ol> <!-- .news-nav__ol -->
+            </ul> <!-- .news-nav__ul -->
         </nav> <!-- .news-nav -->
     </header> <!-- .news-header -->
 
