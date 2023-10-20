@@ -62,5 +62,11 @@
       border: 0;
       overflow: hidden;
     }
+
+    &--is-active {
+      width: 32px;
+      height: 31px;
+      background-image: url('../img/icon-menu-close.svg');
+    }
   }
 }
