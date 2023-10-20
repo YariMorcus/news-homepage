@@ -20,16 +20,24 @@
       right: 0;
       display: block;
       margin-top: 0;
-      padding-top: 15rem;
+      padding-top: 13rem;
       padding-left: 2.5rem;
-      min-width: 27rem;
+      min-width: 25rem;
       min-height: 100vh;
       background-color: v.$white;
       list-style-type: none;
     }
   }
 
+  &__item:not(:last-child) {
+    margin-bottom: 0.5rem;
+  }
+
   &__link {
+    display: inline-block;
+    padding: 1rem 0;
+    width: 100%;
+    color: v.$very-dark-blue;
     text-decoration: none;
   }
 
