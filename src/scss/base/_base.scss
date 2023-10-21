@@ -26,6 +26,11 @@ body {
   font-family: 'Manrope', sans-serif;
   line-height: 1.5;
   font-size: t.$font-size-paragraph;
+
+  @include m.breakpoint-lg() {
+    max-width: 90rem;
+    margin: 4rem auto 0;
+  }
 }
 
 // main {
