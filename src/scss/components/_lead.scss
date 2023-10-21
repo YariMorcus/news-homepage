@@ -2,26 +2,35 @@
 
 .news-lead {
   &__picture {
+    grid-area: lead-img;
     margin-bottom: 1rem;
     display: inline-block;
   }
 
   &__title {
+    grid-area: lead-title;
     font-size: 3.5rem;
     font-weight: 800;
   }
 
   &__introduction {
+    grid-area: lead-introduction;
     margin-bottom: 2rem;
   }
 
   &__read-more {
+    grid-area: lead-read-more;
     display: inline-block;
     border: 1px solid;
     padding: 1rem 5rem;
   }
 
   @include m.breakpoint-lg() {
+    display: grid;
+    grid-template-areas:
+      'lead-img lead-img'
+      'lead-title lead-introduction'
+      'lead-title lead-read-more';
     grid-area: lead;
   }
 }
