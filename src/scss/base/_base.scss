@@ -33,6 +33,16 @@ body {
   }
 }
 
+main {
+  @include m.breakpoint-lg() {
+    display: grid;
+    grid-template-areas:
+      'lead lead sidebar'
+      'card-container card-container card-container';
+    gap: 3rem;
+  }
+}
+
 // main {
 //   display: flex;
 //   align-items: center;

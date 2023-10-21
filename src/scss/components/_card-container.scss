@@ -1,2 +1,7 @@
+@use '../abstracts/mixins' as m;
+
 .news-card-container {
+  @include m.breakpoint-lg() {
+    grid-area: card-container;
+  }
 }

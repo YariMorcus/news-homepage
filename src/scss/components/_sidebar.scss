@@ -1,8 +1,14 @@
+@use '../abstracts/mixins' as m;
+
 .news-sidebar {
   padding: 2.3rem;
   border: 1px solid;
 
   &__title {
     margin-bottom: 2rem;
+  }
+
+  @include m.breakpoint-lg() {
+    grid-area: sidebar;
   }
 }

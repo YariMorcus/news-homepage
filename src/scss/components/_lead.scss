@@ -1,3 +1,5 @@
+@use '../abstracts/mixins' as m;
+
 .news-lead {
   &__picture {
     margin-bottom: 1rem;
@@ -17,5 +19,9 @@
     display: inline-block;
     border: 1px solid;
     padding: 1rem 5rem;
+  }
+
+  @include m.breakpoint-lg() {
+    grid-area: lead;
   }
 }
