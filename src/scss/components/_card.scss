@@ -1,3 +1,5 @@
+@use '../abstracts/mixins' as m;
+
 .news-card {
   margin-bottom: 3rem;
   display: grid;
@@ -15,5 +17,9 @@
 
   &__content {
     padding-left: 2rem;
+  }
+
+  @include m.breakpoint-lg() {
+    flex: 1;
   }
 }
