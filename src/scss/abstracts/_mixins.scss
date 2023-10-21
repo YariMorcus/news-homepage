@@ -12,9 +12,9 @@
   }
 }
 
-// Desktop - 991px
+// Desktop - 1024px
 @mixin breakpoint-lg() {
-  @media (min-width: 61.938rem) {
+  @media (min-width: 64rem) {
     @content;
   }
 }
