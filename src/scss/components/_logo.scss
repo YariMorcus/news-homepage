@@ -1,5 +1,12 @@
+@use '../abstracts/mixins' as m;
+
 .news-logo {
+  flex: 1;
   &__img {
     max-width: 5rem;
+
+    @include m.breakpoint-md() {
+      max-width: initial;
+    }
   }
 }

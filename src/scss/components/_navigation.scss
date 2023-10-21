@@ -1,4 +1,5 @@
 @use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
 
 .news-nav {
   display: flex;
@@ -26,6 +27,13 @@
   &__ul {
     display: none;
     z-index: 2;
+
+    @include m.breakpoint-md() {
+      display: flex;
+      justify-content: space-between;
+      flex: 1;
+      list-style-type: none;
+    }
 
     &.is-active {
       position: absolute;
@@ -66,5 +74,13 @@
       height: 31px;
       background-image: url('../img/icon-menu-close.svg');
     }
+
+    @include m.breakpoint-md() {
+      display: none;
+    }
+  }
+
+  @include m.breakpoint-md() {
+    flex: 1;
   }
 }
