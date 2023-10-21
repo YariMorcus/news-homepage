@@ -1,4 +1,5 @@
 @use '../abstracts/mixins' as m;
+@use '../abstracts/variables' as v;
 
 .news-lead {
   &__picture {
@@ -18,14 +19,19 @@
 
   &__introduction {
     grid-area: lead-introduction;
-    margin-bottom: 2rem;
+    color: v.$dark-grayish-blue;
+    line-height: 1.7;
   }
 
   &__read-more {
     grid-area: lead-read-more;
     display: inline-block;
-    border: 1px solid;
     padding: 1rem 5rem;
+    color: v.$off-white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: v.$soft-red;
+    letter-spacing: 2px;
   }
 
   @include m.breakpoint-lg() {
