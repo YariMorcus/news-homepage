@@ -3,7 +3,6 @@
 .news-lead {
   &__picture {
     grid-area: lead-img;
-    margin-bottom: 1rem;
     display: inline-block;
   }
 
@@ -11,6 +10,10 @@
     grid-area: lead-title;
     font-size: 3.5rem;
     font-weight: 800;
+
+    @include m.breakpoint-lg() {
+      font-size: 4.5rem;
+    }
   }
 
   &__introduction {
