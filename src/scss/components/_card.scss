@@ -6,6 +6,10 @@
   margin-bottom: 3rem;
   grid-template-columns: 10rem 1fr;
 
+  &:not(:last-child) &__content {
+    padding-right: 4rem;
+  }
+
   &__number {
     display: block;
     font-size: 3rem;

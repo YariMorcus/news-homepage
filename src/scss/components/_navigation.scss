@@ -37,7 +37,11 @@
     }
 
     @include m.breakpoint-xl() {
-      column-gap: 6rem;
+      column-gap: 4rem;
+    }
+
+    @include m.breakpoint-xl() {
+      column-gap: 5rem;
     }
 
     &.is-active {
