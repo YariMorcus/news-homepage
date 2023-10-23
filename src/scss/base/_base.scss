@@ -28,7 +28,7 @@ body {
   font-size: t.$font-size-paragraph;
 
   @include m.breakpoint-lg() {
-    max-width: 100rem;
+    max-width: 110rem;
     margin: 4rem auto 0;
   }
 }
@@ -42,12 +42,6 @@ main {
     gap: 3rem;
   }
 }
-
-// main {
-//   display: flex;
-//   align-items: center;
-//   flex: 1;
-// }
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
