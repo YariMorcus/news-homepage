@@ -1,11 +1,36 @@
 @use '../abstracts/mixins' as m;
+@use '../abstracts/variables' as v;
 
 .news-sidebar {
   padding: 2.3rem;
-  border: 1px solid;
+  background-color: v.$very-dark-blue;
 
   &__title {
     margin-bottom: 2rem;
+    color: v.$soft-orange;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 1px solid v.$off-white;
+    }
+  }
+
+  &__subtitle {
+    color: v.$off-white;
+  }
+
+  &__introduction {
+    color: v.$grayish-blue;
+  }
+
+  &__divider {
+    border-color: v.$dark-grayish-blue;
   }
 
   @include m.breakpoint-lg() {
