@@ -40,7 +40,7 @@
     border-color: v.$dark-grayish-blue;
   }
 
-  @include m.breakpoint-lg() {
+  @include m.breakpoint-md() {
     grid-area: sidebar;
   }
 }

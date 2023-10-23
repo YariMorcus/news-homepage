@@ -38,7 +38,7 @@ body {
 }
 
 main {
-  @include m.breakpoint-lg() {
+  @include m.breakpoint-md() {
     display: grid;
     grid-template-areas:
       'lead lead sidebar'

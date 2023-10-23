@@ -1,9 +1,13 @@
 @use '../abstracts/mixins' as m;
 
 .news-card-container {
+  @include m.breakpoint-md() {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    grid-area: card-container;
+  }
   @include m.breakpoint-lg() {
     display: flex;
     justify-content: space-between;
-    grid-area: card-container;
   }
 }

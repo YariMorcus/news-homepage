@@ -41,12 +41,13 @@
     }
   }
 
-  @include m.breakpoint-lg() {
+  @include m.breakpoint-md() {
     display: grid;
     grid-template-areas:
       'lead-img lead-img'
       'lead-title lead-introduction'
       'lead-title lead-read-more';
+    grid-template-rows: repeat(3, max-content);
     grid-area: lead;
     column-gap: 6rem;
   }
