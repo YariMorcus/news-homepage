@@ -2,6 +2,11 @@
 
 .news-logo {
   flex: 1;
+
+  &:focus-visible {
+    max-width: fit-content;
+  }
+
   &__img {
     max-width: 5rem;
 
