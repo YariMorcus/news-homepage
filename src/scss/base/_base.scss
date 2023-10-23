@@ -19,6 +19,7 @@ html {
 /* Set core body defaults */
 body {
   margin: 3rem 2rem 0;
+  max-width: 100rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,8 +29,11 @@ body {
   font-size: t.$font-size-paragraph;
 
   @include m.breakpoint-lg() {
-    max-width: 110rem;
     margin: 4rem auto 0;
+  }
+
+  @include m.breakpoint-xl() {
+    max-width: 110rem;
   }
 }
 
