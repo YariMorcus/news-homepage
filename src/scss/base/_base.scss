@@ -31,10 +31,6 @@ body {
     max-width: 100rem;
     margin: 4rem auto 0;
   }
-
-  @include m.breakpoint-xl() {
-    max-width: 110rem;
-  }
 }
 
 main {

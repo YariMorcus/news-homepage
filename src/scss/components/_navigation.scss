@@ -40,10 +40,6 @@
       column-gap: 4rem;
     }
 
-    @include m.breakpoint-xl() {
-      column-gap: 5rem;
-    }
-
     &.is-active {
       position: absolute;
       top: 0;
