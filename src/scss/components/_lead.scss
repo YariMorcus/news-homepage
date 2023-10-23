@@ -25,8 +25,11 @@
 
   &__read-more {
     grid-area: lead-read-more;
+    align-self: end;
     display: inline-block;
     padding: 1rem 4rem;
+    max-width: fit-content;
+    max-height: fit-content;
     color: v.$off-white;
     text-transform: uppercase;
     text-decoration: none;
