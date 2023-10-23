@@ -2,15 +2,15 @@
 @use '../abstracts/variables' as v;
 
 .news-card {
-  margin-bottom: 3rem;
   display: grid;
+  margin-bottom: 3rem;
   grid-template-columns: 10rem 1fr;
 
   &__number {
     display: block;
     font-size: 3rem;
-    color: v.$grayish-blue;
     font-weight: 700;
+    color: v.$grayish-blue;
   }
 
   &__link {
