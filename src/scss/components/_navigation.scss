@@ -27,11 +27,12 @@
   &__ul {
     display: none;
     z-index: 2;
+    flex: 1;
 
     @include m.breakpoint-md() {
       display: flex;
-      justify-content: space-between;
-      flex: 1;
+      justify-content: flex-end;
+      column-gap: 4rem;
       list-style-type: none;
     }
 
