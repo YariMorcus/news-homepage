@@ -19,6 +19,10 @@
     width: 100%;
     color: v.$very-dark-blue;
     text-decoration: none;
+
+    &:hover {
+      color: v.$soft-red;
+    }
   }
 }
 
