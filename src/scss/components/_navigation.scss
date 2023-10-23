@@ -36,6 +36,10 @@
       list-style-type: none;
     }
 
+    @include m.breakpoint-xl() {
+      column-gap: 6rem;
+    }
+
     &.is-active {
       position: absolute;
       top: 0;
