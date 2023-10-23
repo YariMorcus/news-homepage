@@ -35,6 +35,10 @@
     text-decoration: none;
     background-color: v.$soft-red;
     letter-spacing: 2px;
+
+    &:hover {
+      background-color: v.$very-dark-blue;
+    }
   }
 
   @include m.breakpoint-lg() {
