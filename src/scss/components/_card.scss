@@ -1,4 +1,5 @@
 @use '../abstracts/mixins' as m;
+@use '../abstracts/variables' as v;
 
 .news-card {
   margin-bottom: 3rem;
@@ -6,13 +7,27 @@
   grid-template-columns: 10rem 1fr;
 
   &__number {
+    display: block;
     font-size: 3rem;
+    color: v.$grayish-blue;
+    font-weight: 700;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+
+    &:hover {
+      border-bottom: 1px solid;
+    }
   }
 
   &__headline {
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 800;
+    color: v.$very-dark-blue;
   }
 
   &__content {
