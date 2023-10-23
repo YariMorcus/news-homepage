@@ -14,11 +14,16 @@
   &__link {
     display: inline-block;
     margin-bottom: 0.5rem;
-    border-bottom: 1px solid transparent;
+    color: v.$off-white;
     text-decoration: none;
+    border-bottom: 1px solid transparent;
 
     &:hover {
-      border-bottom: 1px solid v.$off-white;
+      border-bottom: 1px solid v.$soft-orange;
+
+      .news-sidebar__subtitle {
+        color: v.$soft-orange;
+      }
     }
   }
 
