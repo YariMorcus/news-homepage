@@ -26,7 +26,11 @@
     border-bottom: 1px solid transparent;
 
     &:hover {
-      border-bottom: 1px solid;
+      border-bottom: 1px solid v.$soft-red;
+
+      .news-card__headline {
+        color: v.$soft-red;
+      }
     }
   }
 
