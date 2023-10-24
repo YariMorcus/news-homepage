@@ -6,12 +6,4 @@
   &:focus-visible {
     max-width: fit-content;
   }
-
-  &__img {
-    max-width: 5rem;
-
-    @include m.breakpoint-md() {
-      max-width: initial;
-    }
-  }
 }

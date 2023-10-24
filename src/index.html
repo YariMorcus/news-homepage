@@ -8,38 +8,38 @@
     <meta name="author" content="Yari Morcus">
 
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-     <link rel="canonical" href="https://news-homepage-yari-morcus.netlify.app">
+    <link rel="canonical" href="https://news-homepage-yari-morcus.netlify.app">
 
     <!-- custom CSS -->
     <link rel="stylesheet" href="scss/main.scss">
 
     <title>News homepage | Frontend Mentor challenge</title>
-    <script type="module" src="js/index.js"></script>
+    <script defer type="module" src="js/index.js"></script>
 
     <meta property="og:title" content="News homepage">
     <meta property="og:site_name" content="Yari Morcus">
     <meta property="og:url" content="https://news-homepage-yari-morcus.netlify.app">
     <meta property="og:description" content="News homepage made by Yari Morcus. A challenge from Frontend Mentor">
     <meta property="og:type" content="website">
-    <!-- <meta property="og:image" content="../screenshot.png"> -->
-    <meta property="og:image:width" content="2880">
-    <meta property="og:image:height" content="1841">
+    <meta property="og:image" content="../screenshot.png">
+    <meta property="og:image:width" content="1696">
+    <meta property="og:image:height" content="1342">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="News homepage">
     <meta name="twitter:description" content="News homepage made by Yari Morcus. A challenge from Frontend Mentor">
-    <!-- <meta name="twitter:image" content="../screenshot.png"> -->
+    <meta name="twitter:image" content="../screenshot.png">
     <meta name="twitter:image:alt" content="A screenshot of the page">
 
 </head>
 <body>
 <div class="overlay"></div>
     <header class="news-header mb-3">
-        <a class="news-logo" href="#"><img class="news-logo__img" src="img/logo.svg" alt="Go to homepage"></a>
+        <a class="news-logo" href="#"><img class="news-logo__img" src="img/logo.svg" alt="Go to homepage" width="65" height="40"></a>
         <nav class="news-nav" role="navigation">
-            <button id="toggle" class="news-nav__hamburger-button" aria-expanded="false" aria-controls="menu"><span class="news-nav__hamburger-button-text">Menu</span>
+            <button id="js-toggle" class="news-nav__hamburger-button" aria-expanded="false" aria-controls="menu"><span class="news-nav__hamburger-button-text">Menu</span>
             </button> <!-- .news-nav__hamburger-button -->
-            <ul id="menu" class="news-nav__ul">
+            <ul id="js-menu" class="news-nav__ul">
                 <li class="news-nav__item"><a href="#" class="news-nav__link">Home</a></li>
                 <li class="news-nav__item"><a href="#" class="news-nav__link">New</a></li>
                 <li class="news-nav__item"><a href="#" class="news-nav__link">Popular</a></li>
@@ -52,8 +52,8 @@
     <main>
         <article class="news-lead mb-6">
             <picture class="news-lead__picture mb-1 mb-lg-3">
-                <source class="news-lead__source-img" media="(min-width: 768px)" srcset="img/image-web-3-desktop.webp" type="image/jpg">
-                <img class="news-lead__fallback-img" src="img/image-web-3-mobile.webp" alt="">
+                <source class="news-lead__source-img" media="(min-width: 768px)" srcset="img/image-web-3-desktop.webp" type="image/webp">
+                <img class="news-lead__fallback-img" src="img/image-web-3-mobile.webp" alt="" width="734" height="302">
             </picture> <!-- .news-lead__picture -->
             <h2 class="news-lead__title mb-1">The Bright Future of Web 3.0?</h2>
             <p class="news-lead__introduction mb-2">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
@@ -81,7 +81,7 @@
 
         <div class="news-card-container mb-6">
             <article class="news-card">
-                <img class="news-card__img" src="img/image-retro-pcs.webp" alt="">
+                <img class="news-card__img" src="img/image-retro-pcs.webp" alt="" width="100" height="127">
                 <div class="news-card__content">
                     <span class="news-card__number">01</span>
                     <a class="news-card__link" href="#"><h2 class="news-card__headline">Reviving Retro PCs</h2></a>
@@ -89,7 +89,7 @@
                 </div> <!-- .news-card__content -->
             </article> <!-- .news-card -->
             <article class="news-card">
-                <img class="news-card__img" src="img/image-top-laptops.webp" alt="">
+                <img class="news-card__img" src="img/image-top-laptops.webp" alt="" width="100" height="127">
                 <div class="news-card__content">
                     <span class="news-card__number">02</span>
                     <a class="news-card__link" href="#"><h2 class="news-card__headline">Top 10 Laptops of 2022</h2></a>
@@ -97,7 +97,7 @@
                 </div> <!-- .news-card__content -->
             </article> <!-- .news-card -->
             <article class="news-card">
-                <img class="news-card__img" src="img/image-gaming-growth.webp" alt="">
+                <img class="news-card__img" src="img/image-gaming-growth.webp" alt="" width="100" height="127">
                 <div class="news-card__content">
                     <span class="news-card__number">03</span>
                     <a class="news-card__link" href="#"><h2 class="news-card__headline">The Growth of Gaming</h2></a>

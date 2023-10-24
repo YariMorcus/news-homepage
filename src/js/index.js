@@ -1,8 +1,8 @@
 document.querySelector('html').classList.add('js');
 
 const body = document.querySelector('body');
-const toggle = document.getElementById('toggle');
-const menu = document.getElementById('menu');
+const toggle = document.getElementById('js-toggle');
+const menu = document.getElementById('js-menu');
 const overlay = document.querySelector('.overlay');
 
 toggle.addEventListener('click', function () {
