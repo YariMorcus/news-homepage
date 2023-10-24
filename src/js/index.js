@@ -11,10 +11,12 @@ toggle.addEventListener('click', function () {
     menu.classList.remove('is-active');
     this.classList.remove('news-nav__hamburger-button--is-active');
     overlay.classList.remove('overlay--is-active');
+    document.body.style.overflowY = 'scroll';
   } else {
     menu.classList.add('is-active');
     this.classList.add('news-nav__hamburger-button--is-active');
     this.setAttribute('aria-expanded', 'true');
     overlay.classList.add('overlay--is-active');
+    document.body.style.overflowY = 'hidden';
   }
 });
