@@ -25,6 +25,10 @@
         color: v.$soft-orange;
       }
     }
+
+    &:focus-visible {
+      outline: 2px solid v.$off-white;
+    }
   }
 
   &__subtitle {
