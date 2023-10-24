@@ -45,7 +45,7 @@
     }
 
     &.is-active {
-      position: absolute;
+      position: fixed;
       top: 0;
       right: 0;
       display: block;
@@ -79,8 +79,10 @@
     }
 
     &--is-active {
-      width: 32px;
-      height: 31px;
+      position: fixed;
+      right: 2rem;
+      width: 3.2rem;
+      height: 3.1rem;
       background-image: url('../img/icon-menu-close.svg');
     }
 
