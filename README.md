@@ -2,7 +2,7 @@
 
 This is a solution to the [news homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-### Difficulty: <span style="border: 1px solid rgb(170, 215, 66); display: inline-flex; border-radius: .5rem; font-size: 1.4rem; font-weight: 700"><span style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem; padding: 2px 10px;  color: #000; background-color: rgb(170, 215, 66);">2</span><span style="padding: 2px 10px; background-color: transparent; color: rgb(170, 215, 66); font-weight: 700;">junior</span></span>
+### Difficulty: <span style="background-color: red;">`junior`</span>
 
 ![](screenshot.png)
 
